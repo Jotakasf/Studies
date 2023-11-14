@@ -1,5 +1,6 @@
-num1 = int(input("Primeiro número: "))
-num2 = int(input("Segundo número: "))
-soma = num1 + num2
+n1 = int(input("Primeiro número: "))
+n2 = int(input("Segundo número: "))
+s = n1 + n2
 
-print(soma)
+print('O valor da soma entre {} e {} é {}'.format(n1, n2, s))
+print(type(s))
