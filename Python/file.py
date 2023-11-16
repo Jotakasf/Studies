@@ -1,10 +1,8 @@
-import os
-import math 
+from math import sqrt, pow
+from random import randint as rd # 'as' renomeia uma função
+import emoji 
 
-num = int(input('Digite um número: '))
-rq = math.sqrt(num)
+print(emoji.emojize('Python is fun :sign_of_the_horns:'))
+print(rd(1, 6))
 
-print(f'A raiz quadrada de {num} é {rq}')
-
-input('Aperte enter para finalizar')
-os.system('cls')
+print(pow(5, 2))
